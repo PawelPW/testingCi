@@ -25,4 +25,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm install
+    - run: npm install mocha -g 
     - run: mocha *test.js
